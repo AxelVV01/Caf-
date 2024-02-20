@@ -31,5 +31,40 @@ h1, h2{
 }
 nav{
     position: sticky;
+    top: 0;
+    align-items: center;
+    margin-top: -5x;
 }
-
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    padding: 15px;
+    background-color: #053617;
+    margin-top: -4px;
+    
+}
+li{
+   list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.seccion{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+article{
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+}
+.text{
+    
+}
