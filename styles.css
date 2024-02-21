@@ -24,9 +24,10 @@ color: white;
 }
 h1, h2{
     font-family: Dancing Script, sans-serif ;
+    font-size: 3.5vw;
 }
 .width-content{
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0px auto;
 }
 nav{
@@ -46,25 +47,93 @@ ul{
 }
 li{
    list-style: none;
+   font-size: 18px;
 }
 a{
     text-decoration: none;
     color: white;
 }
-.seccion{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-article{
-    max-width: 50%;
-    text-align: center;
-    align-items: center;
-}
-.img{
-    width: 100%;
-}
-.text{
+a:before{
     
 }
+section.green{
+    background-color: #053617;
+    margin-top: -4px;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.green-row{
+    flex-direction: row-reverse;
+}
+article{
+    width: 35%;
+}
+div.container > article >img, video{
+    width: 100%;
+}
+article.text{
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+p.white, h2.white{
+    color: white;
+}
+.subtitulo{
+    text-align: center;
+    padding-top: 10px;
+}
+section.tamaño{
+    width: 75vw;
+}
+div.clientes{
+   margin: 20px 30px
+}
+div.clientes > article{
+padding: 30px 30px;
+}
+div.nombre{
+    display: flex;
+    justify-content: end;
+    color:red;
+}
+footer.green{
+    display: flex;
+    justify-content: center;
+    background-color: #053617;
+    color: white;
+    padding: 50px;
+}
+div.container-footer{
+    display: flex;
+    justify-content:center;
+    width: 70%;
+}
+div.container-footer > .article{
+    flex-direction: column;
+}
+
+div.logos{
+    display: flex;
+    padding-top: 15px;
+    gap: 15px;
+    width: 15%;
+}
+div.logos > img{
+    width: 100%;
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.div-footer > p{
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-family: Lato, sans-serif;
+}
+ 
